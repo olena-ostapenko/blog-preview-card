@@ -1,0 +1,118 @@
+
+/*!
+Theme Name: blog preview card
+Author: olena ost
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Figtree', sans-serif;
+    background: var(--Yellow, #F4D04E);
+    display: flex;
+    align-items: center;
+    justify-content: center
+    }
+
+.card{
+    max-width: 384px;
+    height: 528px;
+    border-radius: 20px;
+    border: 1px solid var(--Black, #111);
+    background: var(--Pure-White, #FFF);
+    box-shadow: 8px 8px 0px 0px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    }
+.card-image{
+    width: 100%;
+    /* height: 100%; */
+}
+.card-image_bcg{
+    width: 336px;
+    height: 200px;
+
+    }
+
+.card-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+
+}
+
+.button{
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    background: var(--Yellow, #F4D04E);
+    color:Black;
+    text-decoration: none;
+    }
+
+/* -------------font----------- */
+h1{
+    color: var(--Black, #111);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    cursor: pointer;
+}
+h1:hover{
+    color: var(--Yellow, #F4D04E);
+}
+a{
+    text-decoration: none;
+}
+.content{
+    color: var(--Grey, #7F7F7F);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.card-autor{
+width: 100%;
+height: auto;
+
+}
+.card-autor_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:12px;
+    color: var(--Black, #111);
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 150%; 
+
+}
